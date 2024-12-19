@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "sohneschmal";
+  src: url("/public/assets/font/TestSohneSchmal-Fett-BF663d89cadad5a.otf") format("truetype");
+}
