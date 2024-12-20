@@ -27,17 +27,16 @@ const Header = () => {
 
     return (
         <nav className="flex items-center bg-transparent text-white justify-between max-w-[1920px] mx-auto">
-            <a href="/" className="relative z-40 max-w-[59px]">
+            <a href="/" className="relative z-40 max-w-[59px] max-sm:w-[42px] translate-y-[30px] max-lg:translate-y-0 max-lg:ps-0 ps-[57px]">
                 <LogoIcon />
             </a>
             <div
-                className={`flex items-center gap-12 bg-white ps-11 max-lg:ps-0 max-lg:flex-col max-lg:fixed max-lg:top-0 z-40 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'bg-darkGreen max-lg:left-0' : 'left-full'}`}
-            >
+                className={`flex items-center gap-12 bg-white ps-11 max-lg:ps-0 max-lg:flex-col max-lg:fixed max-lg:top-0 z-40 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0 bg-green-500' : 'left-full'}`}>
                 {NAV_LIST.map((obj, i) => (
                     <div key={i} className="relative group">
-                        <p className="text-black font-semibold cursor-pointer">
+                        <a href='/' className="text-black font-semibold cursor-pointer text-customsm">
                             {obj.name}
-                        </p>
+                        </a>
                         <div className="absolute left-0 mt-2 bg-white text-black shadow-md rounded hidden group-hover:block z-10">
                             {obj.content.map((item, index) => (
                                 <a
@@ -51,8 +50,8 @@ const Header = () => {
                         </div>
                     </div>
                 ))}
-                <p><SearchIcon /></p>
-                <button className="flex items-center py-8 px-[33px] bg-[#D2F038] text-black text-[15px] font-semibold">
+                <p className=" cursor-pointer"><SearchIcon /></p>
+                <button className="flex items-center py-8 px-[33px] bg-lightGreen text-black text-[15px] font-semibold transition-all ease-linear duration-200 hover:bg-offGreen hover:border-white hover:border">
                     Let’s Talk <ButtonArrow />
                 </button>
             </div>
@@ -62,13 +61,10 @@ const Header = () => {
                 onClick={handleOpen}
             >
                 <span
-                    className={`w-6 transition-all duration-300 h-0.5 bg-black mb-1 rounded-md ${open ? 'translate-x-10' : ''}`}
+                    className={`w-6 transition-all duration-300 h-0.5 bg-white mb-1 rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}
                 ></span>
                 <span
-                    className={`w-6 transition-all duration-300 h-0.5 bg-black mb-1 rounded-md relative after:w-full after:h-full after:bg-black after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}
-                ></span>
-                <span
-                    className={`w-6 transition-all duration-300 h-0.5 bg-black rounded-md ${open ? '-translate-x-10' : ''}`}
+                    className={`w-6 transition-all duration-300 h-0.5 bg-white rounded-md ${open ? '-translate-x-10' : ''}`}
                 ></span>
             </button>
         </nav>
