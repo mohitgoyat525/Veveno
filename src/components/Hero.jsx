@@ -11,7 +11,7 @@ const Hero = () => {
           <Header/>
         <div className="hero">
         <h1 className='text-custom9xl text-white max-xl:text-7xl max-lg:text-6xl relative z-30  max-w-[866px] max-sm:max-w-[365px] mx-auto font-bold leading-[104px] max-sm:leading-[52px] text-center uppercase font-sohneschmal pt-[79px] max-lg:pt-[43px]'>Make marketing a growth machine</h1>
-        <p className='text-center flex items-center max-w-[566px] max-xl:ml-auto xl:mx-auto'><img src="/assets/images/png/green-line-img.png" alt="line"  className='max-sm:max-w-[146px] max-sm:translate-x-10'/></p>
+        <p className='text-center flex items-center max-w-[566px] max-xl:ml-auto xl:mx-auto max-xl:hidden'><img src="/assets/images/png/green-line-img.png" alt="line"  className='max-sm:max-w-[146px] max-sm:translate-x-10'/></p>
         <p className='leading-[30px] text-2xl font-light text-center text-white max-w-[656px] pt-3 mx-auto max-sm:text-[22px] max-sm:pt-5'>We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get a proposal now.</p>
           <div className='border-2 justify-between border-white border-solid rounded-full max-w-[448px] mx-auto flex items-center py-[22px] px-[34px] mt-[30px]'>
             <input type="text" placeholder='Enter Your Website' className='w-full pe-4 bg-transparent text-[#FFFFFF99] font-normal text-[15px] outline-none placeholder:text-[15px] ' />
