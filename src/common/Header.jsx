@@ -34,7 +34,7 @@ const Header = () => {
                 className={`flex items-center gap-12 bg-white ps-11 max-lg:ps-0 max-lg:flex-col max-lg:fixed max-lg:top-0 z-40 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0 !bg-green-500' : 'left-full'}`}>
                 {NAV_LIST.map((obj, i) => (
                     <div key={i} className="relative group">
-                        <a href='/' className="text-black font-semibold cursor-pointer text-customsm">
+                        <a href={obj.link} className="text-black font-semibold cursor-pointer text-customsm">
                             {obj.name}
                         </a>
                         <div className="absolute left-0 mt-2 bg-white text-black shadow-md rounded hidden group-hover:block z-10">

@@ -11,7 +11,7 @@ export const NAV_LIST = [
   },
   {
     name: "Who We Help ▼",
-    link: "/how-we-help",
+    link: "/who-we-help",
     content: [
       { item: "about" },
       { item: "help" },
@@ -21,7 +21,7 @@ export const NAV_LIST = [
   },
   {
     name: "Why Venveo ▼",
-    link: "/how-we-help",
+    link: "/why-venveo",
     content: [
       { item: "about" },
       { item: "help" },
@@ -31,7 +31,7 @@ export const NAV_LIST = [
   },
   {
     name: "Resources ▼",
-    link: "/how-we-help",
+    link: "/resource",
     content: [
       { item: "about" },
       { item: "help" },
