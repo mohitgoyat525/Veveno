@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sohneschmal: ["sohneschmal", "sans-serif"],
-      maisonNeue:["maisonNeue","sans-serif"]
+      maisonNeue: ["maisonNeue", "sans-serif"],
     },
     extend: {
       fontSize: {
@@ -15,6 +15,9 @@ module.exports = {
         lightGreen: "#D2F038",
         offGreen: "#097980",
         offRed: "#FF4242",
+      },
+      backgroundImage: {
+        heroImg: "url('/public/assets/images/webp/hero-bg.webp')",
       },
     },
   },
