@@ -61,10 +61,10 @@ const Header = () => {
                 onClick={handleOpen}
             >
                 <span
-                    className={`w-6 transition-all duration-300 h-0.5 bg-white mb-1 rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}
+                    className={`w-6 transition-all duration-300 h-0.5 bg-white mb-1 rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90  after:bg-black' : ''}`}
                 ></span>
                 <span
-                    className={`w-6 transition-all duration-300 h-0.5 bg-white rounded-md ${open ? '-translate-x-10' : ''}`}
+                    className={`w-6 transition-all duration-300 h-0.5 bg-white rounded-md ${open ? '-translate-x-10  bg-black' : ''}`}
                 ></span>
             </button>
         </nav>
