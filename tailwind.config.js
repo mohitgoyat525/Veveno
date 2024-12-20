@@ -12,6 +12,7 @@ module.exports = {
         customsm: "15px",
       },
       colors: {
+        lightGrey: "#0D99A0",
         lightGreen: "#D2F038",
         offGreen: "#097980",
         offRed: "#FF4242",

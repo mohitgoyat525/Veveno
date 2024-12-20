@@ -51,7 +51,7 @@ const Header = () => {
                     </div>
                 ))}
                 <p className=" cursor-pointer"><SearchIcon /></p>
-                <button className="flex items-center py-8 px-[33px] bg-lightGreen text-black text-[15px] font-semibold transition-all ease-linear duration-200 hover:bg-offGreen hover:border-white hover:border">
+                <button className="flex items-center py-8 px-[33px] bg-lightGreen text-black text-[15px] font-semibold transition-all ease-linear duration-200 hover:bg-lightGrey">
                     Let’s Talk <ButtonArrow />
                 </button>
             </div>
