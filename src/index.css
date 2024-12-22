@@ -4,14 +4,39 @@
 
 @font-face {
   font-family: "sohneschmal";
-  src: url("/public/assets/font/TestSohneSchmal-Fett-BF663d89cadad5a.otf") format("truetype");
+  src: url("/public/assets/fonts/TestSohneSchmal-Fett-BF663d89cadad5a.otf") format("truetype");
 }
 
 @font-face {
   font-family: maisonNeue;
-  src: url('/public/assets/font/MaisonNeue-Light.otf') format("truetype");
+  src: url('/public/assets/fonts/MaisonNeue-Light.otf') format("truetype");
 }
 
 body{
   font-family: maisonNeue;
 }
+
+
+
+  @media (max-width:768px) {
+    @keyframes slide-right {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .slide-scroll-left {
+    animation: slide-right 10s linear infinite;
+  }
+
+  .slide-scroll-left:hover {
+    animation-play-state: paused;
+  }
+  .logo-icon svg{
+    width: 49px !important;
+  }
+  }

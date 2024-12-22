@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -19,6 +19,9 @@ module.exports = {
       },
       backgroundImage: {
         heroImg: "url('/public/assets/images/webp/hero-bg.webp')",
+        cardImgOne: "url('/public/assets/images/png/light-green-bg.png')",
+        cardImgTwo :"url('/public/assets/images/png/off-dark-green-bg.png')",
+        cardImgThree :"url('/public/assets/images/png/yellow-green-bg.png')"
       },
     },
   },
