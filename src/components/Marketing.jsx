@@ -26,7 +26,7 @@ const Marketing = () => {
                         className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full"
                     >
                         <div className="flex items-start gap-6 max-sm:flex-col">
-                            <p>{obj.logo} <img src={i === 3 ? obj.imgLogo : ''} alt="data-icon" /></p>
+                            <img src={obj.logo} alt="data-icon" className='pointer-events-none' />
                             <div>
                                 <h3 className="text-black font-light text-custom3xl leading-[30px] max-w-[325px]">{obj.title}</h3>
                                 <p className="text-black font-normal max-w-[315px] tracking-[2px] pt-5 leading-[20px] text-customsm">{obj.description}</p>

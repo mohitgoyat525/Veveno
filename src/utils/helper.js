@@ -90,7 +90,7 @@ export const CLIENTS_CARDS = [
 
 export const MARKETING_CARD_LIST = [
   {
-    logo: <FourCircleIcon />,
+    logo: '/assets/images/svg/four-circle.svg',
     title: "My website isn’t getting enough traffic",
     description:
       "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
@@ -100,7 +100,7 @@ export const MARKETING_CARD_LIST = [
     btn: "Explore SEO Services ",
   },
   {
-    logo: <CplIcon />,
+    logo: '/assets/images/svg/cpl-icon.svg',
     title: "My CPL from digital ad campaigns is too high",
     description:
       "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
@@ -110,7 +110,7 @@ export const MARKETING_CARD_LIST = [
     btn: "Explore SEO Services ",
   },
   {
-    logo: <GenratingIcon />,
+    logo: '/assets/images/svg/genrating-icon.svg',
     title: "My website isn’t generating enough leads",
     description:
       "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
@@ -120,7 +120,7 @@ export const MARKETING_CARD_LIST = [
     btn: "Explore SEO Services ",
   },
   {
-    imgLogo: '/assets/images/svg/data-icon.svg',
+    logo: '/assets/images/svg/data-icon.svg',
     title: "My marketing and sales data is disconnected",
     description:
       "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
