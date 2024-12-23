@@ -23,7 +23,7 @@ const ClientsCard = () => {
                         <h3 className="font-light text-custom3xl leading-[30px] max-sm:text-2xl max-w-[325px] text-black mt-6 max-sm:mt-4">
                             {obj.title}
                         </h3>
-                        <p className="max-w-[315px] font-normal text-customsm text-black uppercase max-sm:pt-5 pt-[31px]">
+                        <p className="max-w-[315px] font-normal text-customsm text-black tracking-[3px] max-sm:pt-5 pt-[31px]">
                             {obj.description}
                         </p>
                         <button className="mt-[54px] max-md:mt-9 max-sm:mt-7 font-semibold text-customsm flex items-center gap-2">

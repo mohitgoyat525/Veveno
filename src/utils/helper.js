@@ -120,7 +120,7 @@ export const MARKETING_CARD_LIST = [
     btn: "Explore SEO Services ",
   },
   {
-    logo: <FourCircleIcon />,
+    imgLogo: '/assets/images/svg/data-icon.svg',
     title: "My marketing and sales data is disconnected",
     description:
       "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
