@@ -19,7 +19,7 @@ body{
 
 
   @media (max-width:768px) {
-    @keyframes slide-right {
+    @keyframes slide-right  {
     0% {
       transform: translateX(0%);
     }
@@ -30,7 +30,7 @@ body{
   }
 
   .slide-scroll-left {
-    animation: slide-right 10s linear infinite;
+    animation: slide-right 10s linear infinite alternate;
   }
 
   .slide-scroll-left:hover {

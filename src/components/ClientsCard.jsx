@@ -26,7 +26,7 @@ const ClientsCard = () => {
                         <p className="max-w-[315px] font-normal text-customsm text-black tracking-[3px] max-sm:pt-5 pt-[31px]">
                             {obj.description}
                         </p>
-                        <button className="mt-[54px] max-md:mt-9 max-sm:mt-7 font-semibold text-customsm flex items-center gap-2">
+                            <button className="mt-[54px] max-md:mt-9 max-sm:mt-7 font-semibold text-customsm flex items-center gap-2 transition-all ease-linear duration-200 hover:gap-6">
                             {obj.btn} <BtnArrow/>
                         </button>
                         </div>

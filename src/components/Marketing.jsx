@@ -23,7 +23,7 @@ const Marketing = () => {
                 {MARKETING_CARD_LIST.map((obj, i) => (
                     <div
                         key={i}
-                        className={`border-2 relative z-40 max-w-[502px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] max-xl:w-full ${i===1 ? 'pe-[57px]':i===2 ? 'pe-[67px]':i ===3? 'pe-[71px]' :'pe-[71px]'}`}>
+                        className={`border-2 relative z-40 max-w-[503px] h-[506px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] max-xl:w-full ${i===1 ? 'pe-[71px] pt-[65px] pb-[48px]':i===2 ? 'pe-[67px] pb-[39px]':i ===3? 'pe-[71px] pb-[39px]' :'pe-[71px]'}`}>
                         <div className="flex items-start gap-6 max-sm:flex-col">
                             <img src={obj.logo} alt="data-icon" className='pointer-events-none' />
                             <div>
@@ -34,7 +34,7 @@ const Marketing = () => {
                                     <li className='font-semibold text-black leading-[20px] text-customsm'>{obj.listTwo}</li>
                                     <li className='font-semibold text-black leading-[20px] text-customsm'>{obj.listThree}</li>
                                 </ul>
-                                <button className="mt-[52px] flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px]">
+                                <button className={`mt-[52px] transition-all ease-linear duration-200 hover:gap-6 flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px] ${i===1 ? 'mt-[33px]' :i ===3? 'mt-[33px]' : i===2? 'mt-[29px]':  'mt-[54px]'}`}>
                                     {obj.btn} <BtnArrow/>
                                 </button>
                             </div>
