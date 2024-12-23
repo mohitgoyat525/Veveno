@@ -17,20 +17,19 @@ const Marketing = () => {
             <img
                 src="/assets/images/png/yellow-green-line.png"
                 alt="yellow-line"
-                className="w-full absolute -z-10 translate-y-[6rem]"
+                className="w-full absolute -z-10 translate-y-36"
             />
-            <div className="flex flex-wrap gap-[66px] max-md:gap-6 justify-center pt-10 max-sm:mx-4 max-w-[1920px] mx-auto">
+            <div className="flex flex-wrap gap-x-[66px] gap-y-[57px] max-md:gap-6 justify-center pt-[88px] max-lg:pt-12 max-md:pt-10 max-sm:mx-4 max-w-[1440px] mx-auto">
                 {MARKETING_CARD_LIST.map((obj, i) => (
                     <div
                         key={i}
-                        className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full"
-                    >
+                        className={`border-2 relative z-40 max-w-[502px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] max-xl:w-full ${i===1 ? 'pe-[57px]':i===2 ? 'pe-[67px]':i ===3? 'pe-[71px]' :'pe-[71px]'}`}>
                         <div className="flex items-start gap-6 max-sm:flex-col">
                             <img src={obj.logo} alt="data-icon" className='pointer-events-none' />
                             <div>
-                                <h3 className="text-black font-light text-custom3xl leading-[30px] max-w-[325px]">{obj.title}</h3>
-                                <p className="text-black font-normal max-w-[315px] tracking-[2px] pt-5 leading-[20px] text-customsm">{obj.description}</p>
-                                <ul className="list-disc pl-5 mt-7 max-w-[285px]">
+                                <h3 className="text-black font-light text-custom3xl leading-[30px] max-w-[325px] max-sm:max-w-none">{obj.title}</h3>
+                                <p className="text-black font-normal max-w-[315px] tracking-[2.5px] pt-5 leading-[20px] text-customsm max-sm:max-w-none">{obj.description}</p>
+                                <ul className="list-disc pl-5 mt-7 max-w-[285px] max-sm:max-w-none">
                                     <li className='font-semibold text-black leading-[20px] text-customsm'>{obj.listOne}</li>
                                     <li className='font-semibold text-black leading-[20px] text-customsm'>{obj.listTwo}</li>
                                     <li className='font-semibold text-black leading-[20px] text-customsm'>{obj.listThree}</li>

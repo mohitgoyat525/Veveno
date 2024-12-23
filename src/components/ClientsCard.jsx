@@ -12,10 +12,10 @@ const ClientsCard = () => {
             <CustomBoldHeadings BoldText="1,400+ satisfied clients." />
                 <img src="/assets/images/png/red-line.png" alt="line" className=' translate-x-[397px] max-xl:hidden' />
                 </div>
-            <div className="flex flex-wrap justify-between max-xl:justify-center max-xl:gap-6 mt-[88px] max-xl:mt-14 max-lg:mt-[10px] max-xl:m-4 max-w-[1920px] mx-auto">
+            <div className="flex flex-wrap justify-between max-xl:justify-center max-xl:gap-6 mt-[88px] max-xl:mt-14 max-lg:mt-10 max-xl:m-4 max-w-[1920px] mx-auto">
                 {CLIENTS_CARDS.map((obj, i) => (
                     <div
-                        key={i} className={`bg-no-repeat bg-center relative bg-cover max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col !w-[440px] max-sm:w-[320px] ${i === 1 ? "bg-cardImgTwo" : i === 2 ? "bg-cardImgThree" : "bg-cardImgOne"}`}>
+                        key={i} className={`bg-no-repeat bg-center relative bg-cover max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col !w-[440px] max-sm:!w-[390px] ${i === 1 ? "bg-cardImgTwo" : i === 2 ? "bg-cardImgThree" : "bg-cardImgOne"}`}>
                         <div className='flex flex-col bg-white w-[382px] max-sm:w-[320px] rounded-[25px] shadow-lg px-7 pt-[38px] max-sm:m-4 pb-[31px] mx-7 mt-[31px]'>
                             <div className={i === 0 ? "absolute  bg-black text-white font-semibold text-[12px] border border-solid rounded-full w-[165px] py-2 top-3 ps-3 border-black" : i === 1 ? "absolute top-5 text-black font-semibold text-customsm" : ""}>{obj.heading}</div>
 
