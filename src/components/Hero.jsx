@@ -17,7 +17,7 @@ const Hero = () => {
             <button className='text-white text-[15px] font-semibold cursor-pointer '>Analyze </button>
           </form>
           <div className='relative'>
-          <p className=' translate-y-[66px] max-md:translate-y-12 relative pb-10'>
+          <div className=' translate-y-[66px] max-md:translate-y-12 relative pb-10'>
               <img src="/assets/images/webp/hero-sec-img.webp" alt="team-work" className='w-full max-w-[924px] mx-auto max-sm:hidden pointer-events-none' />
               <div className='relative'>
                 <img src="/assets/images/png/hero-sm-img.png" alt="team work" className='w-full sm:hidden pointer-events-none' />
@@ -25,7 +25,7 @@ const Hero = () => {
                   <span className='italic'>for</span>
                   BRANDS </p></div>
                 </div>
-            </p>
+            </div>
             </div>
         </div>
        
