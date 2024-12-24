@@ -32,7 +32,7 @@ const Header = () => {
                 className={`flex items-center gap-12 bg-white ps-11 max-lg:ps-0 max-lg:flex-col max-lg:fixed max-lg:top-0 z-40 max-lg:w-full max-lg:h-screen max-lg:justify-center max-lg:items-center max-lg:bg-ball-blue max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0 !bg-offGreen' : 'left-full'}`}>
                 {NAV_LIST.map((obj, i) => (
                     <div key={i} className="relative group">
-                        <a href={obj.link} className="text-black flex font-medium cursor-pointer items-center gap-1 text-customsm">
+                        <a href={obj.link} className="text-black flex font-medium font-maisonMedium cursor-pointer items-center gap-1 text-customsm">
                             {obj.name} <span className="text-[6px]">{obj.icon}</span>
                         </a>
                         <div className="absolute left-0 mt-2 bg-white text-black shadow-md rounded hidden max-w-[190px] group-hover:block z-10">
@@ -49,7 +49,7 @@ const Header = () => {
                     </div>
                 ))}
                 <p className=" cursor-pointer"><SearchIcon /></p>
-                <button className="flex items-center gap-1 py-8 px-[33px] bg-lightGreen text-black text-[15px] font-semibold transition-all ease-linear duration-200 hover:bg-lightGrey max-lg:p-5">
+                <button className="flex items-center font-maisonBold  gap-1 py-8 px-[33px] bg-lightGreen text-black text-[15px] font-semibold transition-all ease-linear duration-200 hover:bg-lightGrey max-lg:p-5">
                     Let’s Talk <ButtonArrow />
                 </button>
             </div>

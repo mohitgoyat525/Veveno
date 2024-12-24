@@ -3,8 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      sohneschmal: ["sohneschmal", "sans-serif"],
-      maisonNeue: ["maisonNeue", "sans-serif"],
+      sohne: ["Sohne Schmal", "sans-serif"],
+      maisonLight: ["maisonLight", "sans-serif"],
+      maisonRegular: ["maisonRegular", "sans-serif"],
+      maisonMedium: ["maisonMedium", "sans-serif"],
+      maisonBold: ["maisonBold", "sans-serif"],
     },
     extend: {
       fontSize: {

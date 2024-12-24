@@ -4,7 +4,7 @@ import { EnterpreneurIcon, ForbesIcon, FortuneIcon, IncIcon, WsjIcon } from '../
 const Features = () => {
   return (
       <div className='pt-[400px] max-xl:pt-[14rem] max-md:pt-[6rem] max-sm:pt-[20rem] max-[500px]:pt-48 overflow-hidden'>
-          <p className='text-customsm font-normal text-black text-center uppercase leading-[15px]'>Featured in</p>
+          <p className='text-customsm font-normal text-black text-center uppercase leading-[15px] font-maisonRegular'>Featured in</p>
       <div className='flex items-center mt-12 mb-[90px] max-lg:my-10 max-w-[1025px] mx-auto justify-evenly max-md:gap-9 slide-scroll-left'>
               <WsjIcon />
               <EnterpreneurIcon />
