@@ -1,17 +1,17 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import ClientsCard from './components/ClientsCard';
-import Features from './components/Features';
-import Hero from './components/Hero';
-import Marketing from './components/Marketing';
+import Home from './view/Home';
+
 
 function App() {
   return (
     <>
-      <Hero />
-      <Features />
-      <ClientsCard />
-      <Marketing/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+      </Routes>
+      </BrowserRouter>
     </>
   );
 }

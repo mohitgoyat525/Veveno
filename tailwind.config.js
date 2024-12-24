@@ -29,6 +29,7 @@ module.exports = {
         cardImgOne: "url('/public/assets/images/png/light-green-bg.png')",
         cardImgTwo: "url('/public/assets/images/png/off-dark-green-bg.png')",
         cardImgThree: "url('/public/assets/images/png/yellow-green-bg.png')",
+        inputImg: "url('/public/assets/images/png/input-bg-img.png')",
       },
     },
   },

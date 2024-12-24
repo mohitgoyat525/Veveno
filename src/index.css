@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  font-family: maisonNeue;
-}
-
-
 @font-face {
     font-family: "Sohne Schmal";
     src:url(../public/assets/fonts/sohne-schmal-fett.woff2) format("truetype");
