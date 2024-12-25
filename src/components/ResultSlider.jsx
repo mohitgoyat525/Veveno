@@ -38,6 +38,7 @@ const ResultSlider = () => {
                     pagination={{
                         clickable: true,
                     }}
+                    loop={true}
                     breakpoints={{
                         640: {
                             slidesPerView: 1,
