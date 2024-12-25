@@ -1,4 +1,4 @@
-import { AmberIcon, CplIcon, FarnsWorthIcon, FourCircleIcon, GenratingIcon, UsIcon } from "./icons";
+import { AmberIcon, FarnsWorthIcon,UsIcon } from "./icons";
 
 export const NAV_LIST = [
   {
@@ -140,7 +140,14 @@ export const SLIDER_LIST = [
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-one.png",
+    image: "/assets/images/png/slider-img-Two.png",
+    quote:
+      "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+    name: "Jon Vaughan",
+    title: "REGIONAL VP-SE AT US LBM",
+  },
+  {
+    image: "/assets/images/png/slider-img-Three.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
@@ -154,17 +161,18 @@ export const SLIDER_LIST = [
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-one.png",
+    image: "/assets/images/png/slider-img-Two.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-one.png",
+    image: "/assets/images/png/slider-img-Three.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
+
 ];

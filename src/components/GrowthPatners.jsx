@@ -56,9 +56,9 @@ const GrowthPartners = () => {
 
         if (activeTab === 3) {
             return (
-                <div className='xl:bg-tabThreeBgImg max-xl:bg-tabThreeSmImg max-xl:h-full bg-cover bg-center bg-no-repeat w-full max-w-[1337px] h-[720px] mx-auto'>
-                    <div className='flex items-center justify-between max-md:flex-wrap'>
-                    <div className='pt-[75px] ps-[79px] max-xl:p-12 max-md:p-8 max-sm:p-5 flex-col flex'>
+                <div className='xl:bg-tabThreeBgImg max-md:p-4 max-xl:bg-tabThreeSmImg max-xl:h-full bg-cover bg-center bg-no-repeat w-full max-w-[1337px] h-[720px] mx-auto'>
+                    <div className='pt-[75px] ps-[79px] flex items-center justify-between max-md:flex-wrap max-xl:p-12 max-md:p-8 max-sm:p-5'>
+                    <div className='flex-col flex'>
                         <h3 className='text-white font-bold text-custom8xl max-xl:text-6xl max-lg:text-5xl max-md:text-4xl font-sohne leading-[70px]'>Project radar</h3>
                         <p><LogoIpsumIcon /></p>
                         <p className='pt-[162px] max-xl:pt-24 max-lg:pt-16 max-md:pt-11 max-sm:pt-8 max-w-[360px] font-light text-custom3xl max-md:text-2xl text-white leading-[30px]'>Lorem ipsum what this

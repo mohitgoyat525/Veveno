@@ -86,8 +86,7 @@ const ResultSlider = () => {
                             <img
                                 src="/assets/images/svg/prev-arrow-btn.svg"
                                 alt="prev-btn"
-                                className="size-[10px] my-14 mx-8 max-md:hidden"
-                            />
+                                className="size-[10px] my-14 mx-8 max-md:hidden"/>
                         </button>
                     </div>
                     <div className="max-md:hidden swiper-button-next absolute right-4 md:right-8 top-[50%] transform translate-y-[-50%]">
@@ -95,8 +94,7 @@ const ResultSlider = () => {
                             <img
                                 src="/assets/images/svg/next-arrow-btn.svg"
                                 alt="next-btn"
-                                className="size-[10px] my-14 mx-8 max-md:hidden"
-                            />
+                                className="size-[10px] my-14 mx-8 max-md:hidden"/>
                         </button>
                     </div>
                 </div>
