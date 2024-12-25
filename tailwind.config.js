@@ -30,6 +30,12 @@ module.exports = {
         cardImgTwo: "url('/public/assets/images/png/off-dark-green-bg.png')",
         cardImgThree: "url('/public/assets/images/png/yellow-green-bg.png')",
         inputImg: "url('/public/assets/images/png/input-bg-img.png')",
+        tabOneBgImg: "url('/public/assets/images/png/growth-img-one.png')",
+        tabTwoBgImg: "url('/public/assets/images/png/galaxy-img.png')",
+        tabThreeBgImg: "url('/public/assets/images/png/project-rader-img.png')",
+        tabOneSmImg: "url('/public/assets/images/png/tab-one-sm-img.png')",
+        tabTwoSmImg: "url('/public/assets/images/png/tab-two-sm-img.png')",
+        tabThreeSmImg:"url('/public/assets/images/png/tab-three-sm-img.png')"
       },
     },
   },
