@@ -6,7 +6,7 @@ import { ButtonArrow, LogoIpsumIcon, NetWorkIcon } from '../utils/icons';
 
 const GrowthPartners = () => {
     const [searchParams, setSearchParams] = useSearchParams();
-    const [activeTab, setActiveTab] = useState(1);
+    const [activeTab, setActiveTab] = useState(3);
 
     const tabNames = ['Industry Expertise', 'ROI Focused', 'Proprietary Technology'];
 
@@ -33,7 +33,7 @@ const GrowthPartners = () => {
                         <p className='max-w-[360px] font-light text-custom3xl max-md:text-2xl text-white leading-[30px]'>Answer our questions and listen to our answers.</p>
                         <p className='max-w-[360px] mt-[31px] font-normal text-customsm font-maisonRegular leading-[20px] text-white'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
                         <button className='transition-all ease-linear duration-200 hover:bg-offGreen max-lg:mb-6 max-sm:px-5 max-sm:py-4 max-sm:max-w-[245px] text-white font-medium font-maisonMedium text-customsm flex items-center py-[34.84px] px-[32px] border border-solid max-w-[256px] bg-[#FF4242] border-[#FF4242] gap-[10px] mt-[58px]'><NetWorkIcon /> Subscribe to Podcast <span className='text-[6px]'>▼</span></button>
-                        <div className=''>
+                        <div>
                             <img src="/assets/images/png/patners-logo-img.png" alt="logo" className='  xl:hidden mx-auto' />
                             <img src="/assets/images/png/tab-one-card.png" alt="card"  className='xl:hidden max-w-[320px] max-[425px]:max-w-[295px] mt-5 mx-auto' />
                         </div>
@@ -57,17 +57,20 @@ const GrowthPartners = () => {
         if (activeTab === 3) {
             return (
                 <div className='xl:bg-tabThreeBgImg max-xl:bg-tabThreeSmImg max-xl:h-full bg-cover bg-center bg-no-repeat w-full max-w-[1337px] h-[720px] mx-auto'>
-                    <div className='pt-[75px] ps-[79px] max-xl:p-12 max-md:p-8 max-sm:p-5'>
+                    <div className='flex items-center justify-between max-md:flex-wrap'>
+                    <div className='pt-[75px] ps-[79px] max-xl:p-12 max-md:p-8 max-sm:p-5 flex-col flex'>
                         <h3 className='text-white font-bold text-custom8xl max-xl:text-6xl max-lg:text-5xl max-md:text-4xl font-sohne leading-[70px]'>Project radar</h3>
                         <p><LogoIpsumIcon /></p>
                         <p className='pt-[162px] max-xl:pt-24 max-lg:pt-16 max-md:pt-11 max-sm:pt-8 max-w-[360px] font-light text-custom3xl max-md:text-2xl text-white leading-[30px]'>Lorem ipsum what this
                             product actually does.</p>
                         <p className='font-normal text-customsm leading-[20px] text-white font-maisonLight max-w-[360px] mt-[14px]'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
                         <button className='transition-all ease-linear duration-200 hover:bg-offGreen max-xl:mb-6 mt-[57px] flex items-center text-black text-customsm font-semibold leading-[15px] py-[31px] gap-[10px] px-[28px] border border-solid bg-[#D2F038] border-[#D2F038] max-w-[274px]'>Call to Action Somewhere <ButtonArrow /> </button>
-                        <div className=''>
-                            <img src="/assets/images/png/card-data-img.png" alt="card-data" className='xl:hidden' />
+                        
+                    </div>
+                    <div className='xl:hidden'>
+                        <img src="/assets/images/png/card-data-img.png" alt="card-data" className='' />
                         </div>
-                 </div>
+                        </div>
                 </div>
             );
         }
