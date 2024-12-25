@@ -26,7 +26,7 @@ const ResultSlider = () => {
                 </p>
             </div>
 
-            <div className="mx-auto flex items-center justify-center w-full pt-10 md:pt-[81px] px-4 sm:px-6 lg:px-0">
+            <div className="mx-auto flex items-center justify-center w-full pt-10 md:pt-[81px] px-4 sm:px-6 max-w-[1920px] lg:px-0">
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={20}

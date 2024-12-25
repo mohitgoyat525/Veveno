@@ -39,7 +39,7 @@ const GrowthPartners = () => {
                         </div>
                   </div>
                 </div>
-            );
+          );
         }
 
         if (activeTab === 2) {
