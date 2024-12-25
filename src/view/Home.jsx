@@ -5,6 +5,7 @@ import GrowthPatners from '../components/GrowthPatners';
 import Hero from '../components/Hero';
 import Marketing from '../components/Marketing';
 import PrimaryInput from '../components/PrimaryInput';
+import ResultSlider from '../components/ResultSlider';
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
           <ClientsCard />
           <Marketing />
           <PrimaryInput />
-          <GrowthPatners />
+      <GrowthPatners />
+      <ResultSlider/>
       </div>
   )
 }

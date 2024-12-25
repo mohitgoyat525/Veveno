@@ -35,7 +35,8 @@ module.exports = {
         tabThreeBgImg: "url('/public/assets/images/png/project-rader-img.png')",
         tabOneSmImg: "url('/public/assets/images/png/tab-one-sm-img.png')",
         tabTwoSmImg: "url('/public/assets/images/png/tab-two-sm-img.png')",
-        tabThreeSmImg:"url('/public/assets/images/png/tab-three-sm-img.png')"
+        tabThreeSmImg: "url('/public/assets/images/png/tab-three-sm-img.png')",
+        sliderBgImg:"url('/public/assets/images/png/slider-bg-img.png')"
       },
     },
   },

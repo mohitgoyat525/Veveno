@@ -130,3 +130,41 @@ export const MARKETING_CARD_LIST = [
     btn: "Explore SEO Services ",
   },
 ];
+
+export const SLIDER_LIST = [
+  {
+    image: "/assets/images/png/slider-img-one.png",
+    quote:
+      "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+    name: "Jon Vaughan",
+    title: "REGIONAL VP-SE AT US LBM",
+  },
+  {
+    image: "/assets/images/png/slider-img-one.png",
+    quote:
+      "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+    name: "Jon Vaughan",
+    title: "REGIONAL VP-SE AT US LBM",
+  },
+  {
+    image: "/assets/images/png/slider-img-one.png",
+    quote:
+      "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+    name: "Jon Vaughan",
+    title: "REGIONAL VP-SE AT US LBM",
+  },
+  {
+    image: "/assets/images/png/slider-img-one.png",
+    quote:
+      "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+    name: "Jon Vaughan",
+    title: "REGIONAL VP-SE AT US LBM",
+  },
+  {
+    image: "/assets/images/png/slider-img-one.png",
+    quote:
+      "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+    name: "Jon Vaughan",
+    title: "REGIONAL VP-SE AT US LBM",
+  },
+];
