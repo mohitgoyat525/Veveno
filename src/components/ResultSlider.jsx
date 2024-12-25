@@ -29,7 +29,7 @@ const ResultSlider = () => {
             <div className="mx-auto flex items-center justify-center w-full pt-10 md:pt-[81px] px-4 sm:px-6 max-w-[1920px] lg:px-0">
                 <Swiper
                     slidesPerView={1}
-                    spaceBetween={20}
+                    spaceBetween={290}
                     centeredSlides={true}
                     navigation={{
                         nextEl: '.swiper-button-next',
@@ -81,7 +81,7 @@ const ResultSlider = () => {
                     ))}
                 </Swiper>
                 <div className="max-md:hidden swiper-button-prev absolute left-4 md:left-8 top-[50%] transform translate-y-[-50%]">
-                    <button className="bg-white max-md:hidden rounded-full flex items-center justify-center w-8 h-8 sm:w-[50px] sm:h-[50px] md:w-[70px] md:h-[70px]">
+                    <button className="bg-white max-md:hidden rounded-full flex items-center justify-center">
                         <img
                             src="/assets/images/png/prev-btn-img.png"
                             alt="prev-btn"
@@ -90,7 +90,7 @@ const ResultSlider = () => {
                     </button>
                 </div>
                 <div className="max-md:hidden swiper-button-next absolute right-4 md:right-8 top-[50%] transform translate-y-[-50%]">
-                    <button className="bg-white max-md:hidden rounded-full flex items-center justify-center w-8 h-8 sm:w-[50px] sm:h-[50px] md:w-[70px] md:h-[70px]">
+                    <button className="bg-white max-md:hidden rounded-full flex items-center justify-center">
                         <img
                             src="/assets/images/png/next-btn-img.png"
                             alt="next-btn"
