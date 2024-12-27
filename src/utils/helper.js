@@ -140,14 +140,14 @@ export const SLIDER_LIST = [
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "./assets/images/png/slider-img-Two.png",
+    image: "./assets/images/webp/slider-img-two.webp",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "./assets/images/png/slider-img-Three.png",
+    image: "./assets/images/webp/slider-img-three.webp",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
@@ -161,18 +161,26 @@ export const SLIDER_LIST = [
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "./assets/images/png/slider-img-Two.png",
+    image: "./assets/images/webp/slider-img-two.webp",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "./assets/images/png/slider-img-Three.png",
+    image: "./assets/images/webp/slider-img-three.webp",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
+];
 
+export const LEARN_US_LIST = [
+  {
+    heading: "guides",
+    discription: "Marketing to Contractors and Installers: The Ultimate Guide",
+    discriptionTwo: "Understanding the process and maximize the opportunities",
+    btn: "Read More",
+  },
 ];

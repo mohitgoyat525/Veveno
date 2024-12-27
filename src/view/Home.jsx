@@ -6,6 +6,7 @@ import Hero from '../components/Hero';
 import Marketing from '../components/Marketing';
 import PrimaryInput from '../components/PrimaryInput';
 import ResultSlider from '../components/ResultSlider';
+import LearnFrom from '../components/LearnFrom';
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
           <Marketing />
           <PrimaryInput />
       <GrowthPatners />
-      <ResultSlider/>
+      <ResultSlider />
+      <LearnFrom/>
       </div>
   )
 }
