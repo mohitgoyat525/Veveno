@@ -7,6 +7,8 @@ import Marketing from '../components/Marketing';
 import PrimaryInput from '../components/PrimaryInput';
 import ResultSlider from '../components/ResultSlider';
 import LearnFrom from '../components/LearnFrom';
+import Footer from '../common/Footer';
+import ThreeCards from '../components/ThreeCards';
 
 const Home = () => {
   return (
@@ -18,7 +20,9 @@ const Home = () => {
           <PrimaryInput />
       <GrowthPatners />
       <ResultSlider />
-      <LearnFrom/>
+      <LearnFrom />
+      <ThreeCards/>
+      <Footer/>
       </div>
   )
 }

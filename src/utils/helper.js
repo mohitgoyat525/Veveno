@@ -184,3 +184,61 @@ export const LEARN_US_LIST = [
     btn: "Read More",
   },
 ];
+
+export const THREE_CARDS_LIST = [
+  {
+    heading: "multi-channel marketing",
+    subHeading: "How to Get Your Product into Lowe's",
+    description: "Understanding the process and maximize the opportunities",
+    button: "Read More",
+  },
+  {
+    heading: "lead-gen",
+    subHeading: "Get Your Sales Team Ready for Digital Leads",
+    description:
+      "unlock substantial business growth by enhancing collaboration skills and digital marketing expertise",
+    button: "Read More",
+  },
+  {
+    heading: "ecommerce",
+    subHeading: "How to Sell Building Materials Online",
+    description:
+      "Explore how selling building materials online opens up wider audiences, efficient sales and insightful data,",
+    button: "Read More",
+  },
+];
+
+
+export const FOOTER_LIST = [
+  {
+    title: "how we help",
+    list: "Get more Customers",
+    listTwo: "Drive More Leads",
+    listThree: "Build Your Brand",
+    listFour: "Improve your reputation",
+    listFive: "Track Results",
+  },
+  {
+    title: "who we help",
+    list: "Digital Advertising",
+    listTwo: "Search Engine Ranking",
+    listThree: "Content Marketing",
+    listFour: "Programic Advertising",
+    listFive: "Email Marketing",
+  },
+  {
+    title: "why venveo",
+    list: "About Us",
+    listTwo: "Careers",
+    listThree: "Growth Studies",
+    listFour: "Testimonials",
+  },
+  {
+    title: "resources",
+    list: "Articles",
+    listTwo: "News",
+    listThree: "Webinars",
+    listFour: "EBooks",
+    listFive: "Podcast",
+  },
+];

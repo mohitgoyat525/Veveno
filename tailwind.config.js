@@ -36,7 +36,10 @@ module.exports = {
         tabOneSmImg: "url('/public/assets/images/png/tab-one-sm-img.png')",
         tabTwoSmImg: "url('/public/assets/images/png/tab-two-sm-img.png')",
         tabThreeSmImg: "url('/public/assets/images/png/tab-three-sm-img.png')",
-        sliderBgImg:"url('/public/assets/images/png/slider-bg-img.png')"
+        sliderBgImg: "url('/public/assets/images/png/slider-bg-img.png')",
+         multiChanel: "url('/public/assets/images/webp/multi-chanel-bg.webp')",
+        leadGen: "url('/public/assets/images/webp/lead-gen-bg.webp')",
+        ecommerce: "url('/public/assets/images/webp/ecommerce-bg.webp')",
       },
     },
   },
