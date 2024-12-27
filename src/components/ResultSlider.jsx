@@ -1,19 +1,18 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// Import required modules
+
 import { Navigation, Pagination } from 'swiper/modules';
 import { UsIcon } from '../utils/icons';
 import { SLIDER_LIST } from '../utils/helper';
 
 const ResultSlider = () => {
     return (
-        <div className="bg-cover bg-no-repeat bg-center bg-sliderBgImg flex flex-col justify-center items-center overflow-hidden">
+        <div className="bg-cover bg-no-repeat bg-center bg-sliderBgImg flex flex-col justify-center items-center overflow-hidden pb-9">
             <div className="container max-w-[1920px] mx-auto relative">
                 <div className="text-center pt-[119px]  max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-6 px-4 md:px-6 lg:px-0">
                     <h3 className="text-white font-maisonLight font-light text-lg sm:text-xl md:text-2xl lg:text-custom3xl leading-6 md:leading-[30px]">
