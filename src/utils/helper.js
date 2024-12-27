@@ -133,42 +133,42 @@ export const MARKETING_CARD_LIST = [
 
 export const SLIDER_LIST = [
   {
-    image: "/assets/images/png/slider-img-one.png",
+    image: "./assets/images/png/slider-img-one.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-Two.png",
+    image: "./assets/images/png/slider-img-Two.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-Three.png",
+    image: "./assets/images/png/slider-img-Three.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-one.png",
+    image: "./assets/images/png/slider-img-one.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-Two.png",
+    image: "./assets/images/png/slider-img-Two.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
     title: "REGIONAL VP-SE AT US LBM",
   },
   {
-    image: "/assets/images/png/slider-img-Three.png",
+    image: "./assets/images/png/slider-img-Three.png",
     quote:
       "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
     name: "Jon Vaughan",
