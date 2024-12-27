@@ -47,7 +47,7 @@ const ThreeCards = () => {
                     <div
                         key={i}
                         className={`bg-cover bg-no-repeat min-h-[240px] w-full max-w-[360px] flex items-end justify-end pr-0 pl-28 pt-5 pb-4 ${
-                            i === 0 ? 'bg-multiChanel' : i === 1 ? 'bg-leadGgen' : 'bg-ecommerce'
+                            i === 0 ? 'bg-multiChanel' : i === 1 ? 'bg-leadGen' : 'bg-ecommerce'
                         }`}
                     >
                         <div className='bg-white p-6 w-full rounded-l-3xl'>

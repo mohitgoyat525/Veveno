@@ -9,6 +9,7 @@ import ResultSlider from '../components/ResultSlider';
 import LearnFrom from '../components/LearnFrom';
 import Footer from '../common/Footer';
 import ThreeCards from '../components/ThreeCards';
+import ReadyGoals from '../components/ReadyGoals';
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
       <GrowthPatners />
       <ResultSlider />
       <LearnFrom />
-      <ThreeCards/>
+      <ThreeCards />
+      <ReadyGoals/>
       <Footer/>
       </div>
   )
