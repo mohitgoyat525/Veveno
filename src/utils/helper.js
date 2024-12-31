@@ -1,4 +1,4 @@
-import { AmberIcon, FarnsWorthIcon,UsIcon } from "./icons";
+import { AmberIcon, FaceBookIcon, FarnsWorthIcon,InstaIcon,LinkedInIcon,TwitterIcon,UsIcon, YouTubeIcon, EyeIcon,BuildBrandIcon,GetCustomersIcon,ImproveIcon,TrackResultIcon } from "./icons";
 
 export const NAV_LIST = [
   {
@@ -212,8 +212,8 @@ export const THREE_CARDS_LIST = [
 export const FOOTER_LIST = [
   {
     title: "how we help",
-    list: "Get more Customers",
-    listTwo: "Drive More Leads",
+    list: "Drive More Awareness",
+    listTwo: "Get more Customers",
     listThree: "Build Your Brand",
     listFour: "Improve your reputation",
     listFive: "Track Results",
@@ -240,5 +240,59 @@ export const FOOTER_LIST = [
     listThree: "Webinars",
     listFour: "EBooks",
     listFive: "Podcast",
+  },
+];
+
+export const FOOTER_MOBILE_LIST = [
+  {
+    icon: <EyeIcon />,
+    iconTwo: <GetCustomersIcon />,
+    iconThree: <BuildBrandIcon />,
+    iconFour: <ImproveIcon />,
+    iconFive: <TrackResultIcon />,
+    title: "How We Help ▼",
+    list: "Drive More Awareness",
+    listTwo: "Get More Customers",
+    listThree: "Build Your Brand",
+    listFour: "Improve your reputation",
+    listFive: "Track Results",
+  },
+  {
+    title: "Who We Help ▼",
+    list: "Digital Advertising",
+    listTwo: "Search Engine Ranking",
+    listThree: "Content Marketing",
+    listFour: "Programic Advertising",
+    listFive: "Email Marketing",
+  },
+  {
+    title: "Why Venveo ▼",
+    list: "About Us",
+    listTwo: "Careers",
+    listThree: "Growth Studies",
+    listFour: "Testimonials",
+  },
+];
+
+export const MEDIA_ICON_LIST = [
+  {
+    icon: <FaceBookIcon/>,
+    link: "https://www.facebook.com",
+  },
+  {
+    icon: <InstaIcon/>,
+    link: "https://www.instagram.com",
+  },
+  {
+    icon: <TwitterIcon/>,
+    link: "https://www.twitter.com",
+  },
+  {
+    icon: <LinkedInIcon/>,
+    link: "https://www.linkedin.com",
+  },
+  {
+    icon: <YouTubeIcon/>,
+    link: "https://www.youtube.com",
   },
 ];

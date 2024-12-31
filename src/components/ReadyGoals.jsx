@@ -6,7 +6,7 @@ const ReadyGoals = () => {
       <div style={{ backgroundImage: 'url(/assets/images/webp/ready-goals.webp)' }} className="bg-cover bg-center bg-no-repeat box-border">
           <div className='max-w-[1140px] mx-auto text-center flex py-[66px] gap-9 justify-center items-center max-lg:flex-col'>
               <h2 className='font-light text-white text-[40px] leading-[100%] font-maisonLight'>Ready to hit your goals?</h2>
-              <button className='p-[31px] flex items-center gap-2.5 bg-[#D2F038] text-customsm font-semibold font-maisonMedium transition-all duration-300 ease-linear hover:shadow-[inset_300px_0_0_0px_#fff]'>Book a Strategy Call
+              <button className='p-[31px] flex items-center gap-2.5 bg-[#D2F038] max-sm:w-full max-sm:max-w-[335px] max-sm:justify-center text-customsm font-semibold font-maisonMedium transition-all duration-300 ease-linear hover:bg-offGreen hover:text-white'>Book a Strategy Call
                   <ButtonArrow/>
               </button>
           </div>

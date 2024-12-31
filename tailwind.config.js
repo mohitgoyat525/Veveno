@@ -15,6 +15,7 @@ module.exports = {
         customsm: "15px",
         custom3xl: "30px",
         custom8xl: "80px",
+        customXsm:"13px",
       },
       colors: {
         lightGrey: "#0D99A0",
@@ -23,6 +24,7 @@ module.exports = {
         offRed: "#FF4242",
         lightestGreen: "#9DC9CC",
         extrimeGreen: "#00AFB5",
+        
       },
       backgroundImage: {
         heroImg: "url('/public/assets/images/webp/hero-bg.webp')",
@@ -37,7 +39,7 @@ module.exports = {
         tabTwoSmImg: "url('/public/assets/images/png/tab-two-sm-img.png')",
         tabThreeSmImg: "url('/public/assets/images/png/tab-three-sm-img.png')",
         sliderBgImg: "url('/public/assets/images/png/slider-bg-img.png')",
-         multiChanel: "url('/public/assets/images/webp/multi-chanel-bg.webp')",
+        multiChanel: "url('/public/assets/images/webp/multi-chanel-bg.webp')",
         leadGen: "url('/public/assets/images/webp/lead-gen-bg.webp')",
         ecommerce: "url('/public/assets/images/webp/ecommerce-bg.webp')",
       },

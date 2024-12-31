@@ -54,7 +54,7 @@ const ThreeCards = () => {
                             <p className='text-customsm font-maisonMedium uppercase text-pacific-blue pb-[15px]'>
                                 {obj.heading}
                             </p>
-                            <p className='text-2xl font-light font-maisonLight leading-custom-xs max-w-[201px] pb-[15px]'>
+                            <p className='text-2xl max-sm:text-customsm font-light font-maisonLight leading-custom-xs max-w-[201px] pb-[15px]'>
                                 {obj.subHeading}
                             </p>
                             <button
@@ -72,7 +72,7 @@ const ThreeCards = () => {
                 onClick={toggleShowMore}
             >
                 {showMore ? 'Less More Resources' : 'Show More Resources'}
-                <span className={`${showMore ? 'rotate-180' : ''} duration-300 ease-linear`}>▼</span>
+                <span className={`${showMore ? 'rotate-180' : ''} duration-300 transition-all ease-linear`}>▼</span>
             </button>
         </div>
     );
