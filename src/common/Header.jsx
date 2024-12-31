@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ButtonArrow, LogoIcon, SearchIcon } from "../utils/icons";
 import { NAV_LIST } from "../utils/helper";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -37,13 +38,13 @@ const Header = () => {
                         </a>
                         <div className="absolute left-0 mt-2 bg-white text-black shadow-md rounded hidden max-w-[190px] group-hover:block z-10">
                             {obj.content.map((item, index) => (
-                                <a
+                                <Link
                                     key={index}
-                                    href='/'
+                                    to='/'
                                     className="block px-6 py-2 hover:bg-gray-200 w-[120px]"
                                 >
                                     {item.item}
-                                </a>
+                                </Link>
                             ))}
                         </div>
                     </div>
