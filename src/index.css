@@ -86,7 +86,7 @@ border-radius: 0 !important;
   }
 
   .slide-scroll-left {
-    animation: slide-right 10s linear infinite alternate;
+    animation: slide-right 10s linear infinite;
   }
 
   .slide-scroll-left:hover {

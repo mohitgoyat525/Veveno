@@ -87,9 +87,9 @@ const GrowthPartners = () => {
             </p>
 
             <div className='tabs-parent mt-[105px] max-xl:mt-16 max-lg:mt-10 max-md:mt-8 relative z-20'>
-                <div className='relative max-md:overflow-x-scroll max-md:mx-auto max-md:gap-7 flex items-center justify-center gap-[78px]'>
+                <div className='relative max-md:overflow-x-scroll max-md:mx-auto max-md:gap-7 flex items-center max-sm:justify-start justify-center gap-[78px]'>
                     <p
-                        className={`text-lg max-sm:text-base font-semibold  text-black opacity-35 leading-[18px] font-maisonBold cursor-pointer ${activeTab === 1 ? 'text-black !opacity-100' : ''
+                        className={`text-lg max-sm:text-base font-semibold  max-md:whitespace-nowrap text-black opacity-35 leading-[18px] font-maisonBold cursor-pointer ${activeTab === 1 ? 'text-black !opacity-100' : ''
                             }`}
                         onClick={() => handleTabClick(1)}
                     >
@@ -103,7 +103,7 @@ const GrowthPartners = () => {
                         )}
                     </p>
                     <p
-                        className={`text-lg max-sm:text-base font-semibold text-black opacity-35 leading-[18px] font-maisonBold cursor-pointer ${activeTab === 2 ? 'text-black !opacity-100' : ''
+                        className={`text-lg max-sm:text-base font-semibold max-md:whitespace-nowrap text-black opacity-35 leading-[18px] font-maisonBold cursor-pointer ${activeTab === 2 ? 'text-black !opacity-100' : ''
                             }`}
                         onClick={() => handleTabClick(2)}
                     >
@@ -117,7 +117,7 @@ const GrowthPartners = () => {
                         )}
                     </p>
                     <p
-                        className={`text-lg max-sm:text-base font-semibold text-black opacity-35 leading-[18px] font-maisonBold cursor-pointer ${activeTab === 3 ? 'text-black !opacity-100' : ''
+                        className={`text-lg max-sm:text-base font-semibold max-md:whitespace-nowrap text-black opacity-35 leading-[18px] font-maisonBold cursor-pointer ${activeTab === 3 ? 'text-black !opacity-100' : ''
                             }`}
                         onClick={() => handleTabClick(3)}
                     >
