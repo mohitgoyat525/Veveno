@@ -5,8 +5,8 @@ const PrimaryInput = () => {
       <div className='bg-cover bg-center bg-no-repeat bg-inputImg h-[209px] max-xl:h-full max-md:px-4'>
           <div className='flex items-center pt-[60px]  max-xl:py-10 max-md:py-5 max-xl:flex-wrap justify-center max-w-[1440px] mx-auto gap-[10rem]  max-xl:gap-7 relative'>
               <div>
-                  <p className='text-black text-customsm font-normal font-maisonRegular'>Get a free competitive analysis on your market</p>
-                  <h3 className='font-normal text-black text-[40px] font-maisonLight max-md:text-3xl'>Outsmart your competition</h3>
+                  <p className='text-black text-customsm font-normal max-lg:text-center font-maisonRegular'>Get a free competitive analysis on your market</p>
+                  <h3 className='font-normal text-black text-[40px] max-lg:text-center font-maisonLight max-md:text-3xl'>Outsmart your competition</h3>
               </div>
                   <img src="/assets/images/svg/green-curve-line.svg" alt="line" className='max-xl:hidden  absolute translate-x-[33px] translate-y-9 ' />    
               <div className=''>
