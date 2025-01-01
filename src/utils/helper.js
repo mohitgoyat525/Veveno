@@ -208,7 +208,6 @@ export const THREE_CARDS_LIST = [
   },
 ];
 
-
 export const FOOTER_LIST = [
   {
     title: "how we help",

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FOOTER_LIST,FOOTER_MOBILE_LIST ,MEDIA_ICON_LIST } from '../utils/helper'
 import { FooterVenveoIcon } from '../utils/icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -18,11 +19,11 @@ const Footer = () => {
                           <div key={i} className='w-3/12 max-lg:w-full'>
                               <h3 className='text-white text-xs font-medium leading-[108%] uppercase font-maisonMedium'>{obj.title}</h3>
                               <ul className='pt-5'>
-                                  <li><a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.list}</a></li>
-                                  <li><a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listTwo}</a></li>
-                                  <li><a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listThree}</a></li>
-                                  <li><a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFour}</a></li>
-                                  <li><a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFive}</a></li>
+                                  <li><Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.list}</Link></li>
+                                  <li><Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listTwo}</Link></li>
+                                  <li><Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listThree}</Link></li>
+                                  <li><Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFour}</Link></li>
+                                  <li><Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFive}</Link></li>
                               </ul>
                           </div>
                       ))}
@@ -32,11 +33,11 @@ const Footer = () => {
                           <div key={i} className='w-3/12 max-lg:w-full'>
                               <h3 onClick={() => listToggle(i)} className='text-lightGreen text-xs font-medium leading-[108%] uppercase font-maisonMedium'>{obj.title}</h3>
                               <ul className={`overflow-hidden duration-300 ease-linear flex flex-col gap-6 ${mobileList === i ? "max-h-[300px] pt-5" : "max-h-0"}`}>
-                                  <li className='flex gap-4 items-center'>{obj.icon}<a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.list}</a></li>
-                                  <li className='flex gap-4 items-center'>{obj.iconTwo}<a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listTwo}</a></li>
-                                  <li className='flex gap-4 items-center'>{obj.iconThree}<a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listThree}</a></li>
-                                  <li className='flex gap-4 items-center'>{obj.iconFour}<a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFour}</a></li>
-                                  <li className='flex gap-4 items-center'>{obj.iconFive}<a href="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFive}</a></li>
+                                  <li className='flex gap-4 items-center'>{obj.icon}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.list}</Link></li>
+                                  <li className='flex gap-4 items-center'>{obj.iconTwo}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listTwo}</Link></li>
+                                  <li className='flex gap-4 items-center'>{obj.iconThree}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listThree}</Link></li>
+                                  <li className='flex gap-4 items-center'>{obj.iconFour}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFour}</Link></li>
+                                  <li className='flex gap-4 items-center'>{obj.iconFive}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listFive}</Link></li>
                               </ul>
                           </div>
                       ))}
@@ -49,62 +50,62 @@ const Footer = () => {
                       </form>
                   </div>
               </div>
-              <div className='pt-20 w-full flex justify-between max-xl:gap-7 items-end  max-xl:items-start px-4 max-[769px]:hidden'>
+              <div className='pt-20 w-full flex justify-between max-xl:gap-7 items-end  max-xl:items-start max-xl:px-4 max-[769px]:hidden'>
                   <div>
-                      <a href="/" className='pb-0.5'><FooterVenveoIcon/> </a>
+                      <Link to="/" className='pb-0.5'><FooterVenveoIcon/> </Link>
                       <p className='max-w-[415px] text-white text-customXsm font-normal font-maisonLight leading-[153%] pt-5'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
                           ©{currentYear} Venveo</p>
                   </div>
                   <div className='flex gap-14'>
-                      <ul>
+                      <div>
                           <p className='uppercase text-sm leading-[108%] text-white font-maisonMedium font-medium pb-0.5'>Visit</p>
-                          <li className='pt-7'><a href="/" className='text-white font-light font-maisonLight text-customXsm leading-[153%]'>100 N Main Street <span className='block'>#201 </span>
-                              Blacksburg, VA 24060</a></li>
-                      </ul>
-                      <ul>
+                          <p className='pt-7'><Link to="/" className='text-white font-light font-maisonLight text-customXsm leading-[153%]'>100 N Main Street <span className='block'>#201 </span>
+                              Blacksburg, VA 24060</Link></p>
+                      </div>
+                      <div>
                           <p className='uppercase text-sm leading-[108%] text-white font-maisonMedium font-medium pb-0.5'>contact</p>
-                          <li className='pt-7'><a href="mailto:info@venveo.com" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lightGreen'>info@venveo.com</a></li>
-                          <li className='pt-5'><a href="tel:+4733378901" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lightGreen'>1 · 800 · 123 · 4567</a></li>
-                      </ul>
+                          <p className='pt-7'><Link to="mailto:info@venveo.com" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lightGreen'>info@venveo.com</Link></p>
+                          <p className='pt-5'><Link to="tel:+4733378901" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lightGreen'>1 · 800 · 123 · 4567</Link></p>
+                      </div>
                   </div>
                   <div className='flex flex-col gap-8 items-center'>
                       <div className='flex gap-8'>
-                          <a href="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</a>
-                          <a href="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</a>
+                          <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</Link>
+                          <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</Link>
                       </div>
                       <div className='flex gap-[34px]'>
                           {MEDIA_ICON_LIST.map((obj, i) => (
-                              <a key={i} href={obj.link} target='_blank' className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:scale-125 duration-300 ease-linear'>{obj.icon}</a>
+                              <Link key={i} to={obj.link} target='_blank' className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:scale-125 duration-300 ease-linear'>{obj.icon}</Link>
                           ))}
                       </div>
                   </div>
               </div>
               <div className='min-[769px]:hidden pt-16 justify-center items-center flex flex-col'>
                   <div className='flex gap-14 flex-col text-center'>
-                      <ul>
+                      <div>
                           <p className='uppercase text-sm leading-[108%] text-white font-maisonMedium font-medium'>Visit</p>
-                            <li className='pt-5'><a href="/" className='text-white font-light font-maisonLight text-customsm leading-[133%]'>100 N Main Street <span className='block'>#201 </span>
-                              Blacksburg, VA 24060</a></li>
-                      </ul>
-                      <ul>
+                            <p className='pt-5'><Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[133%]'>100 N Main Street <span className='block'>#201 </span>
+                              Blacksburg, VA 24060</Link></p>
+                      </div>
+                      <div>
                           <p className='uppercase text-sm leading-[108%] text-white font-maisonMedium font-medium pb-0.5'>contact</p>
-                          <li className='pt-7'><a href="mailto:info@venveo.com" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>info@venveo.com</a></li>
-                          <li className='pt-5'><a href="tel:+4733378901" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>1 · 800 · 123 · 4567</a></li>
-                      </ul>
+                          <p className='pt-7'><Link to="mailto:info@venveo.com" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>info@venveo.com</Link></p>
+                          <p className='pt-5'><Link to="tel:+4733378901" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>1 · 800 · 123 · 4567</Link></p>
+                      </div>
                   </div>
                   <div className='flex gap-[34px] pt-16'>
                       {MEDIA_ICON_LIST.map((obj, i) => (
-                          <a key={i} href={obj.link} target='_blank' className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:scale-125 duration-300 ease-linear media-link'>{obj.icon}</a>
+                          <Link key={i} to={obj.link} target='_blank' className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:scale-125 duration-300 ease-linear media-link'>{obj.icon}</Link>
                       ))}
                   </div>
                   <div className='flex items-center justify-center flex-col text-center pt-14'>
-                      <a href="/" className='pb-0.5'> <FooterVenveoIcon/> </a>
+                      <Link to="/" className='pb-0.5'> <FooterVenveoIcon/> </Link>
                       <p className='max-w-[415px] text-white text-customXsm font-normal font-maisonLight leadin-[153%] pt-3'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
                           ©{currentYear} Venveo</p>
                   </div>
                   <div className='flex gap-8 pt-9'>
-                      <a href="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</a>
-                      <a href="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</a>
+                      <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</Link>
+                      <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</Link>
                   </div>
               </div>
           </div>

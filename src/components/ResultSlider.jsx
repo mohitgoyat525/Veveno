@@ -9,6 +9,7 @@ import { SLIDER_LIST } from '../utils/helper';
 
 const ResultSlider = () => {
     return (
+        <>
         <div className="bg-cover bg-no-repeat bg-center bg-sliderBgImg flex flex-col justify-center items-center overflow-hidden pb-9">
             <div className="container max-w-[1920px] mx-auto relative">
                 <div className="text-center pt-[119px]  max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-6 px-4 md:px-6 lg:px-0">
@@ -95,7 +96,9 @@ const ResultSlider = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+            <img src="/assets/images/png/slider-bottom-line.png" alt="line" className='w-full mt-3' />
+            </>
     );
 };
 

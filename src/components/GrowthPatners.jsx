@@ -64,7 +64,7 @@ const GrowthPartners = () => {
                         <p className='pt-[162px] max-xl:pt-24 max-lg:pt-16 max-md:pt-11 max-sm:pt-8 max-w-[360px] font-light text-custom3xl max-md:text-2xl text-white leading-[30px]'>Lorem ipsum what this
                             product actually does.</p>
                         <p className='font-normal text-customsm leading-[20px] text-white font-maisonLight max-w-[360px] mt-[14px]'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
-                        <button className='transition-all ease-linear duration-200 hover:bg-offGreen max-xl:mb-6 mt-[57px] flex items-center text-black text-customsm font-semibold leading-[15px] py-[31px] gap-[10px] px-[28px] border border-solid bg-[#D2F038] border-[#D2F038] max-w-[274px]'>Call to Action Somewhere <ButtonArrow /> </button>
+                        <button className='transition-all ease-linear duration-200 hover:bg-offGreen max-xl:mb-6 mt-[57px] flex items-center text-black text-customsm font-semibold leading-[15px] py-[31px] gap-[10px] px-[28px] max-md:px-6 border border-solid bg-[#D2F038] border-[#D2F038] max-w-[274px]'>Call to Action Somewhere <ButtonArrow /> </button>
                         
                     </div>
                     <div className='xl:hidden'>
