@@ -17,9 +17,9 @@ const LearnFrom = () => {
                   alt="yellow-line"
                   className="w-full absolute -z-10 translate-y-28"/>
               <div className='relative max-w-[1322px] mx-auto w-full'>
-                  <img src="/assets/images/webp/learn-from-us-img.webp" alt="team-work" className='w-full max-w-[1322px] mx-auto relative max-md:hidden' />
-                  <img src="/assets/images/png/sm-learn-more-img.png" alt="team-work" className='w-full max-w-[1322px] mx-auto relative  md:hidden' />
-              <div className='bg-white border border-solid rounded-3xl px-7 pt-9 pb-8 absolute left-[29px] bottom-[31px] max-sm:left-[19px] max-sm:bottom-[19px] w-full max-w-[382px] max-md:max-w-[339px]'>
+                  <img src="/assets/images/webp/learn-from-us-img.webp" alt="team-work" className='w-full max-w-[1322px] mx-auto relative max-lg:hidden' />
+                  <img src="/assets/images/png/sm-learn-more-img.png" alt="team-work" className='w-full max-w-[1322px] mx-auto relative  lg:hidden' />
+              <div className='bg-white border border-solid rounded-3xl px-7 pt-9 pb-8 absolute left-[29px] bottom-[31px] max-lg:left-[19px] max-lg:bottom-[19px] w-full max-w-[382px] max-md:max-w-[339px]'>
                   <div>
                       {LEARN_US_LIST.map((obj, i) => (
                           <div className='' key={i}>
