@@ -10,11 +10,10 @@ const Footer = () => {
         setMobileView(mobileView === index ? null : index)
     }
     return (
-      
       <footer className='bg-offGreen '>
-          <div className='max-w-[1321px] mx-auto pt-[90px] pb-[100px] max-xl:py-14 max-lg:py-10 max-sm:py-9 max-xl:px-4'>
+          <div className='max-w-[1321px] mx-auto pt-[90px] pb-[100px] max-xl:py-14 max-lg:py-10 max-sm:py-9 max-2xl:px-4'>
               <div className='flex max-xl:flex-wrap-reverse max-xl:justify-center'>
-                  <div className='w-8/12 max-lg:w-full flex gap-[82px] max-md:gap-5 max-sm:flex-wrap max-sm:justify-center max-sm:items-center max-md:hidden'>
+                  <div className='w-8/12 max-xl:w-full flex gap-[82px] max-md:gap-5 max-sm:flex-wrap max-sm:justify-center max-sm:items-center max-md:hidden'>
                       {FOOTER_LIST.map((obj, i) => (
                           <div key={i} className='w-3/12 max-lg:w-full'>
                               <h3 className='text-white text-xs font-medium leading-[108%] uppercase font-maisonMedium'>{obj.title}</h3>
@@ -104,8 +103,8 @@ const Footer = () => {
                           ©{currentYear} Venveo</p>
                   </div>
                   <div className='flex gap-8 pt-9'>
-                      <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</Link>
-                      <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</Link>
+                      <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%'>All Rights Reserved</Link>
+                      <Link to="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%'>Privacy Policy</Link>
                   </div>
               </div>
           </div>
