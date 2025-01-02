@@ -8,7 +8,7 @@ const GrowthPartners = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const [activeTab, setActiveTab] = useState(3);
 
-    const tabNames = ['Industry Expertise', 'ROI Focused', 'Proprietary Technology'];
+    const tabNames = ['industry-expertise', 'roi-focused', 'proprietary-technology'];
 
     useEffect(() => {
         const tabParam = searchParams.get('tab');
@@ -28,7 +28,7 @@ const GrowthPartners = () => {
             return (
                 <div className='bg-cover bg-no-repeat bg-center xl:bg-tabOneBgImg max-xl:bg-tabOneSmImg w-full max-w-[1280px] max-xl:h-full h-[720px] mx-auto'>
                     <div className='ps-[79px] pt-[75px] max-xl:p-12 max-md:p-8 max-sm:p-5'>
-                        <h3 className='text-white font-bold text-custom8xl max-xl:text-6xl max-lg:text-5xl max-md:text-4xl font-sohne leading-[70px] max-w-[415px]'>the smartest minds in the
+                        <h3 className='text-white font-bold text-custom8xl max-xl:text-6xl max-lg:text-5xl max-md:text-4xl font-sohne leading-[70px] max-w-[415px] uppercase'>the smartest minds in the
                             industry</h3>
                         <p className='max-w-[360px] font-light text-custom3xl max-md:text-2xl text-white leading-[30px]'>Answer our questions and listen to our answers.</p>
                         <p className='max-w-[360px] mt-[31px] font-normal text-customsm font-maisonRegular leading-[20px] text-white'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
@@ -57,18 +57,18 @@ const GrowthPartners = () => {
         if (activeTab === 3) {
             return (
                 <div className='xl:bg-tabThreeBgImg max-md:p-4 max-xl:bg-tabThreeSmImg max-xl:h-full bg-cover bg-center bg-no-repeat w-full max-w-[1337px] h-[720px] mx-auto'>
-                    <div className='pt-[75px] ps-[79px] flex items-center justify-between max-md:flex-wrap max-xl:p-12 max-md:p-8 max-sm:p-5'>
+                    <div className='pt-[75px] ps-[79px] flex items-center justify-between max-md:flex-wrap max-xl:p-12 max-md:p-0 '>
                     <div className='flex-col flex'>
                         <h3 className='text-white font-bold text-custom8xl max-xl:text-6xl max-lg:text-5xl max-md:text-4xl font-sohne leading-[70px]'>Project radar</h3>
                         <p><LogoIpsumIcon /></p>
                         <p className='pt-[162px] max-xl:pt-24 max-lg:pt-16 max-md:pt-11 max-sm:pt-8 max-w-[360px] font-light text-custom3xl max-md:text-2xl text-white leading-[30px]'>Lorem ipsum what this
                             product actually does.</p>
                         <p className='font-normal text-customsm leading-[20px] text-white font-maisonLight max-w-[360px] mt-[14px]'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
-                        <button className='transition-all ease-linear duration-200 hover:bg-offGreen max-xl:mb-6 mt-[57px] flex items-center text-black text-customsm font-semibold leading-[15px] py-[31px] gap-[10px] px-[28px] max-md:px-6 border border-solid bg-[#D2F038] border-[#D2F038] max-w-[274px]'>Call to Action Somewhere <ButtonArrow /> </button>
+                        <button className='transition-all ease-linear duration-200 hover:bg-offGreen max-xl:mb-6 mt-[57px] flex items-center text-black text-customsm font-semibold leading-[15px] py-[31px] gap-[10px] px-[28px] max-md:px-6 border border-solid bg-[#D2F038] border-[#D2F038] max-w-[274px] max-sm:max-w-[265px] max-sm:py-8'>Call to Action Somewhere <ButtonArrow /> </button>
                         
                     </div>
                     <div className='xl:hidden'>
-                        <img src="/assets/images/png/card-data-img.png" alt="card-data" className='' />
+                        <img src="/assets/images/png/card-data-img.png" alt="card-data"/>
                         </div>
                         </div>
                 </div>
@@ -87,7 +87,7 @@ const GrowthPartners = () => {
             </p>
 
             <div className='tabs-parent mt-[105px] max-xl:mt-16 max-lg:mt-10 max-md:mt-8 relative z-20'>
-                <div className='relative max-md:overflow-x-scroll max-md:mx-auto max-md:gap-7 flex items-center max-sm:justify-start justify-center gap-[78px]'>
+                <div className='relative max-md:overflow-x-scroll max-md:mx-auto max-md:gap-7 flex items-center max-sm:justify-start justify-center gap-[78px] max-md:pb-6'>
                     <p
                         className={`text-lg max-sm:text-base font-semibold  max-md:whitespace-nowrap text-black opacity-35 leading-[18px] font-maisonBold cursor-pointer ${activeTab === 1 ? 'text-black !opacity-100' : ''
                             }`}

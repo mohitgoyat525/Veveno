@@ -8,7 +8,7 @@ const Marketing = () => {
     return (
         <div className="pt-[132px] pb-[129px] max-xl:py-28 max-lg:py-20 max-md:py-16 max-sm:py-10 relative">
             <CustomHeading CustomHeading="Problems we solve." />
-            <div className="max-w-[552px] mx-auto ">
+            <div className="max-w-[552px] mx-auto max-sm:px-4">
                 <CustomBoldHeadings BoldText="Digital Marketing for today’s Business" />
             </div>
             <p className="font-normal text-customsm font-maisonRegular max-sm:px-4 uppercase text-center max-w-[641px] leading-[20px] pt-6 text-black mx-auto ">
@@ -34,7 +34,7 @@ const Marketing = () => {
                                     <li className='font-semibold text-black leading-[20px] text-customsm font-maisonBold'>{obj.listTwo}</li>
                                     <li className='font-semibold text-black leading-[20px] text-customsm font-maisonBold'>{obj.listThree}</li>
                                 </ul>
-                                <button className={`transition-all font-maisonBold ease-linear duration-200 hover:gap-6 flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px] ${i===1 ? 'mt-[33px]' :i ===3? 'mt-[33px]' : i===2? 'mt-[29px]':  'mt-[54px]'}`}>
+                                <button className={`transition-all font-maisonBold ease-linear duration-200 hover:gap-4 flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px] ${i===1 ? 'mt-[33px]' :i ===3? 'mt-[33px]' : i===2? 'mt-[29px]':  'mt-[54px]'}`}>
                                     {obj.btn} <BtnArrow/>
                                 </button>
                             </div>
