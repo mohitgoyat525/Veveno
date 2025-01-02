@@ -79,7 +79,7 @@ const ResultSlider = () => {
                         ))}
                     </Swiper>
                     <div className="max-md:hidden swiper-button-prev absolute left-4 md:left-8 top-[50%] transform translate-y-[-50%]">
-                        <button className="bg-white max-md:hidden rounded-r-[25px] flex items-center justify-center">
+                        <button className="bg-white max-md:hidden rounded-r-[25px] flex items-center justify-center min-w-[71px]">
                             <img
                                 src="/assets/images/svg/prev-arrow-btn.svg"
                                 alt="prev-btn"
@@ -87,7 +87,7 @@ const ResultSlider = () => {
                         </button>
                     </div>
                     <div className="max-md:hidden swiper-button-next absolute right-4 md:right-8 top-[50%] transform translate-y-[-50%]">
-                        <button className="bg-white max-md:hidden rounded-l-[25px] flex items-center justify-center">
+                            <button className="bg-white max-md:hidden rounded-l-[25px] flex items-center justify-center min-w-[71px]">
                             <img
                                 src="/assets/images/svg/next-arrow-btn.svg"
                                 alt="next-btn"
