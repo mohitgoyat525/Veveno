@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
-    const [mobileList, setMobileList] = useState(null)
-    const listToggle = (index) => {
-        setMobileList(mobileList === index ? null : index)
+    const [mobileView, setMobileView] = useState(null)
+    const handler = (index) => {
+        setMobileView(mobileView === index ? null : index)
     }
     return (
       
-      <footer className='bg-offGreen max-lg:px-4'>
-          <div className='max-w-[1321px] mx-auto pt-[90px] pb-[100px] max-xl:py-14 max-lg:py-10 max-sm:py-9'>
+      <footer className='bg-offGreen '>
+          <div className='max-w-[1321px] mx-auto pt-[90px] pb-[100px] max-xl:py-14 max-lg:py-10 max-sm:py-9 max-xl:px-4'>
               <div className='flex max-xl:flex-wrap-reverse max-xl:justify-center'>
                   <div className='w-8/12 max-lg:w-full flex gap-[82px] max-md:gap-5 max-sm:flex-wrap max-sm:justify-center max-sm:items-center max-md:hidden'>
                       {FOOTER_LIST.map((obj, i) => (
@@ -28,11 +28,11 @@ const Footer = () => {
                           </div>
                       ))}
                   </div>
-                  <div className='w-8/12 max-lg:w-full flex gap-[82px] max-md:gap-5 max-sm:flex-wrap max-sm:justify-center max-sm:items-center md:hidden'>
+                  <div className='w-8/12 max-lg:w-full flex gap-[82px] max-md:gap-5 max-sm:flex-wrap max-md:justify-center max-md:text-center max-sm:text-start max-sm:items-center md:hidden'>
                       {FOOTER_MOBILE_LIST.map((obj, i) => (
                           <div key={i} className='w-3/12 max-lg:w-full'>
-                              <h3 onClick={() => listToggle(i)} className='text-lightGreen text-xs font-medium leading-[108%] uppercase font-maisonMedium'>{obj.title}</h3>
-                              <ul className={`overflow-hidden duration-300 ease-linear flex flex-col gap-6 ${mobileList === i ? "max-h-[300px] pt-5" : "max-h-0"}`}>
+                              <h4 onClick={() => handler(i)} className='text-lightGreen text-xs font-medium leading-[108%] uppercase font-maisonMedium'>{obj.title}</h4>
+                              <ul className={`overflow-hidden duration-300 ease-linear flex flex-col gap-6 ${mobileView === i ? "max-h-[300px] pt-5" : "max-h-0"}`}>
                                   <li className='flex gap-4 items-center'>{obj.icon}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.list}</Link></li>
                                   <li className='flex gap-4 items-center'>{obj.iconTwo}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listTwo}</Link></li>
                                   <li className='flex gap-4 items-center'>{obj.iconThree}<Link to="/" className='text-white font-light font-maisonLight text-customsm leading-[30px] hover:text-lightGreen duration-300 ease-linear'>{obj.listThree}</Link></li>
@@ -52,7 +52,7 @@ const Footer = () => {
               </div>
               <div className='pt-20 w-full flex justify-between max-xl:gap-7 items-end  max-xl:items-start max-xl:px-4 max-[769px]:hidden'>
                   <div>
-                      <Link to="/" className='pb-0.5'><FooterVenveoIcon/> </Link>
+                      <Link to="/" className='pb-[2px]'><FooterVenveoIcon/> </Link>
                       <p className='max-w-[415px] text-white text-customXsm font-normal font-maisonLight leading-[153%] pt-5'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
                           ©{currentYear} Venveo</p>
                   </div>

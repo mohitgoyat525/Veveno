@@ -11,7 +11,7 @@ const Marketing = () => {
             <div className="max-w-[552px] mx-auto ">
                 <CustomBoldHeadings BoldText="Digital Marketing for today’s Business" />
             </div>
-            <p className="font-normal text-customsm max-sm:px-4 uppercase text-center max-w-[641px] leading-[20px] pt-6 text-black mx-auto tracking-[1px]">
+            <p className="font-normal text-customsm font-maisonRegular max-sm:px-4 uppercase text-center max-w-[641px] leading-[20px] pt-6 text-black mx-auto ">
                 We help companies scale their strategies across multiple channels to drive more revenue, more quickly, without cutting corners.
             </p>
             <img

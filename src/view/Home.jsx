@@ -14,11 +14,11 @@ import ReadyGoals from '../components/ReadyGoals';
 const Home = () => {
   return (
       <div>
-          <Hero />
-          <Features />
-          <ClientsCard />
-          <Marketing />
-          <PrimaryInput />
+      <Hero />
+      <Features />
+      <ClientsCard />
+      <Marketing />
+      <PrimaryInput />
       <GrowthPatners />
       <ResultSlider />
       <LearnFrom />
